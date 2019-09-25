@@ -1,0 +1,9 @@
+{application,erlang_v8,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {modules,[erlang_v8,erlang_v8_app,erlang_v8_router,
+                        erlang_v8_sup,erlang_v8_vm]},
+              {applications,[kernel,stdlib,jsx]},
+              {mod,{erlang_v8_app,[]}},
+              {env,[]}]}.
